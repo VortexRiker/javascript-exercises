@@ -1,16 +1,16 @@
-/*
- First name: Carlos
- Last name: Stevenson
- This year: 1965
- Birth year: 1947
 
- The greeting should read: "Hello! My name is Carlos Stevenson and I am 18 years old."
-*/
-
-// Add your code right below, good luck!
-
-
-
+ //First name: Carlos
+ const firstName = "Carlos";
+ //Last name: Stevenson
+ const lastName = "Stevenson";
+ const fullName = firstName + " " + lastName;
+ //This year: 1965
+ const thisYear = 1965;
+ //Birth year: 1947
+ const birthYear = 1947;
+ const age = thisYear - birthYear;
+ //The greeting should read: "Hello! My name is Carlos Stevenson and I am 18 years old."
+ const greeting = "Hello! My name is " + fullName + " and I am " + age + " years old."; 
 
 
 // Do not change this
